@@ -1,0 +1,56 @@
+n_trainable_params: 681506, n_nontrainable_params: 0
+cuda memory allocated: 2729984
+training arguments:
+data_path: ./data
+feature_path: ./feature
+store_path: static_dict
+record_path: None
+modal: all
+device: cuda:7
+seed: 1227
+mini: False
+epoch: 10
+batch_size: 400
+lr: 0.001
+l2reg: 0.001
+annealing_max: 100
+clip: 40.0
+embedding_size: 100
+hop_size: 3
+dropout_rate: 0.3
+num_class: 6
+feature_size: 712
+[ Epoch 001/010 ]( 00:00:11 ) train loss: 0.89280 train acc: 0.78744 val loss: 1.04052 val acc: 0.62590 test loss: 0.94537 test acc: 0.63339
+[ Epoch 002/010 ]( 00:00:07 ) train loss: 0.36235 train acc: 0.92410 val loss: 1.08350 val acc: 0.59096 test loss: 0.93597 test acc: 0.61245
+[ Epoch 003/010 ]( 00:00:07 ) train loss: 0.27156 train acc: 0.93408 val loss: 1.11785 val acc: 0.59198 test loss: 0.94953 test acc: 0.61306
+[ Epoch 004/010 ]( 00:00:07 ) train loss: 0.24289 train acc: 0.93735 val loss: 1.16541 val acc: 0.58787 test loss: 0.98332 test acc: 0.60998
+[ Epoch 005/010 ]( 00:00:07 ) train loss: 0.22965 train acc: 0.94096 val loss: 1.16365 val acc: 0.59096 test loss: 0.98080 test acc: 0.61183
+[ Epoch 006/010 ]( 00:00:07 ) train loss: 0.22278 train acc: 0.94079 val loss: 1.16968 val acc: 0.58890 test loss: 0.98571 test acc: 0.60998
+[ Epoch 007/010 ]( 00:00:07 ) train loss: 0.21959 train acc: 0.94200 val loss: 1.17033 val acc: 0.58787 test loss: 0.98610 test acc: 0.60937
+[ Epoch 008/010 ]( 00:00:07 ) train loss: 0.22267 train acc: 0.94251 val loss: 1.17280 val acc: 0.58787 test loss: 0.98760 test acc: 0.60875
+[ Epoch 009/010 ]( 00:00:06 ) train loss: 0.21971 train acc: 0.94269 val loss: 1.17344 val acc: 0.59815 test loss: 0.98601 test acc: 0.61429
+[ Epoch 010/010 ]( 00:00:06 ) train loss: 0.21346 train acc: 0.94251 val loss: 1.19864 val acc: 0.58890 test loss: 1.00453 test acc: 0.60690
+Finish train. ( 00:01:16 )
+Best model metrics:
+accuracy: 0.63339
+confusion_matrix: 
+[[ 54   6  19   0  62   3]
+ [  2 158  35   4   0  46]
+ [ 11  15 206  12  24 116]
+ [  0   0   5 111   0  54]
+ [ 42   2  41   0 211   3]
+ [  0   5  49  37   2 288]]
+classification report: 
+              precision    recall  f1-score   support
+
+           0    0.49541   0.37500   0.42688       144
+           1    0.84946   0.64490   0.73318       245
+           2    0.58028   0.53646   0.55751       384
+           3    0.67683   0.65294   0.66467       170
+           4    0.70569   0.70569   0.70569       299
+           5    0.56471   0.75591   0.64646       381
+
+    accuracy                        0.63339      1623
+   macro avg    0.64540   0.61181   0.62240      1623
+weighted avg    0.64295   0.63339   0.63184      1623
+
