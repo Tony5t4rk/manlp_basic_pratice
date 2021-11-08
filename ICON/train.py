@@ -100,7 +100,7 @@ def train_epoch(args, model, dataloader, optimizer, scheduler, criterion, mode='
         loss = criterion(output, label)
         if mode == 'train':
             loss.backward()
-            # nn.utils.clip_grad_norm_(model.parameters(), args.clip)
+            nn.utils.clip_grad_norm_(model.parameters(), args.clip)
             optimizer.step()
             scheduler.step()
         loss_epoch.append(loss.item())
