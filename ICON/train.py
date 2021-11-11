@@ -159,6 +159,8 @@ def main():
     args = parser.parse_args()
     if not os.path.exists(args.store_path):
         os.mkdir(args.store_path)
+    if args.device is not None:
+        torch.cuda.set_device(args.device)
     args.device = torch.device('cpu') if args.device is None else torch.device(f'cuda:{args.device}')
     log_file = f'{args.store_path}/{time.strftime("%y%m%d-%H%M", time.localtime())}.log'
     logger.addHandler(logging.FileHandler(log_file))
