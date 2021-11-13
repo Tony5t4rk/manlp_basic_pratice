@@ -1,0 +1,112 @@
+n_trainable_params: 17945806, n_nontrainable_params: 0
+cuda memory allocated: 73159680
+training arguments:
+data_path: ./data
+feature_path: ./feature
+store_path: static_dict
+record_path: None
+modal: all
+device: cuda:3
+seed: 1234
+val_ratio: 0.0
+epoch: 60
+batch_size: 30
+lr: 0.0001
+l2reg: 1e-05
+annealing_max: 100
+clip: 40.0
+global_size: 500
+party_size: 500
+emotion_size: 300
+attn: True
+bilateral: True
+listener_state: False
+dropout_rate: 0.1
+num_class: 6
+feature_size: 712
+train dataset size: 120
+test dataset size: 31
+[ Epoch 001/060 ]( 00:00:07 ) train loss: 1.75717 train acc: 0.30361 train f1: 0.29475 test loss: 1.66619 test acc: 0.35120 test f1: 0.28695
+[ Epoch 002/060 ]( 00:00:06 ) train loss: 1.62459 train acc: 0.51170 train f1: 0.49820 test loss: 1.54835 test acc: 0.42452 test f1: 0.38504
+[ Epoch 003/060 ]( 00:00:06 ) train loss: 1.49955 train acc: 0.58417 train f1: 0.57233 test loss: 1.45104 test acc: 0.53481 test f1: 0.50216
+[ Epoch 004/060 ]( 00:00:05 ) train loss: 1.41181 train acc: 0.62117 train f1: 0.61473 test loss: 1.37567 test acc: 0.60197 test f1: 0.58547
+[ Epoch 005/060 ]( 00:00:05 ) train loss: 1.34988 train acc: 0.66265 train f1: 0.66012 test loss: 1.33298 test acc: 0.63463 test f1: 0.62227
+[ Epoch 006/060 ]( 00:00:05 ) train loss: 1.28932 train acc: 0.70637 train f1: 0.70559 test loss: 1.32518 test acc: 0.63401 test f1: 0.62393
+[ Epoch 007/060 ]( 00:00:05 ) train loss: 1.25757 train acc: 0.71962 train f1: 0.71917 test loss: 1.32592 test acc: 0.62292 test f1: 0.61653
+[ Epoch 008/060 ]( 00:00:05 ) train loss: 1.22730 train acc: 0.73993 train f1: 0.74027 test loss: 1.31173 test acc: 0.62169 test f1: 0.61761
+[ Epoch 009/060 ]( 00:00:05 ) train loss: 1.20489 train acc: 0.76059 train f1: 0.76149 test loss: 1.30655 test acc: 0.61368 test f1: 0.61044
+[ Epoch 010/060 ]( 00:00:05 ) train loss: 1.18299 train acc: 0.77143 train f1: 0.77280 test loss: 1.31862 test acc: 0.61614 test f1: 0.61254
+[ Epoch 011/060 ]( 00:00:05 ) train loss: 1.17380 train acc: 0.78055 train f1: 0.78137 test loss: 1.33988 test acc: 0.61799 test f1: 0.61383
+[ Epoch 012/060 ]( 00:00:05 ) train loss: 1.16806 train acc: 0.78003 train f1: 0.78093 test loss: 1.36119 test acc: 0.61922 test f1: 0.61445
+[ Epoch 013/060 ]( 00:00:05 ) train loss: 1.14153 train acc: 0.79432 train f1: 0.79518 test loss: 1.36785 test acc: 0.61799 test f1: 0.61312
+[ Epoch 014/060 ]( 00:00:05 ) train loss: 1.12994 train acc: 0.80757 train f1: 0.80855 test loss: 1.36765 test acc: 0.61676 test f1: 0.61226
+[ Epoch 015/060 ]( 00:00:05 ) train loss: 1.11958 train acc: 0.81015 train f1: 0.81149 test loss: 1.37036 test acc: 0.61676 test f1: 0.61247
+[ Epoch 016/060 ]( 00:00:05 ) train loss: 1.11538 train acc: 0.81256 train f1: 0.81383 test loss: 1.37320 test acc: 0.61553 test f1: 0.61143
+[ Epoch 017/060 ]( 00:00:05 ) train loss: 1.11357 train acc: 0.81136 train f1: 0.81264 test loss: 1.37481 test acc: 0.61245 test f1: 0.60851
+[ Epoch 018/060 ]( 00:00:05 ) train loss: 1.11109 train acc: 0.81239 train f1: 0.81321 test loss: 1.37614 test acc: 0.60998 test f1: 0.60633
+[ Epoch 019/060 ]( 00:00:05 ) train loss: 1.10487 train acc: 0.82065 train f1: 0.82175 test loss: 1.37601 test acc: 0.61060 test f1: 0.60700
+[ Epoch 020/060 ]( 00:00:05 ) train loss: 1.10752 train acc: 0.81601 train f1: 0.81697 test loss: 1.37674 test acc: 0.61060 test f1: 0.60693
+[ Epoch 021/060 ]( 00:00:05 ) train loss: 1.09685 train acc: 0.82410 train f1: 0.82502 test loss: 1.37745 test acc: 0.60998 test f1: 0.60639
+[ Epoch 022/060 ]( 00:00:05 ) train loss: 1.10015 train acc: 0.82083 train f1: 0.82200 test loss: 1.37811 test acc: 0.61060 test f1: 0.60689
+[ Epoch 023/060 ]( 00:00:05 ) train loss: 1.09743 train acc: 0.82289 train f1: 0.82412 test loss: 1.37844 test acc: 0.61060 test f1: 0.60689
+[ Epoch 024/060 ]( 00:00:05 ) train loss: 1.09959 train acc: 0.82341 train f1: 0.82463 test loss: 1.37830 test acc: 0.61060 test f1: 0.60689
+[ Epoch 025/060 ]( 00:00:05 ) train loss: 1.09905 train acc: 0.82117 train f1: 0.82211 test loss: 1.37828 test acc: 0.61060 test f1: 0.60689
+[ Epoch 026/060 ]( 00:00:05 ) train loss: 1.09636 train acc: 0.82547 train f1: 0.82671 test loss: 1.37825 test acc: 0.61060 test f1: 0.60689
+[ Epoch 027/060 ]( 00:00:05 ) train loss: 1.10692 train acc: 0.81325 train f1: 0.81413 test loss: 1.37813 test acc: 0.61060 test f1: 0.60689
+[ Epoch 028/060 ]( 00:00:05 ) train loss: 1.09536 train acc: 0.82255 train f1: 0.82367 test loss: 1.37745 test acc: 0.61060 test f1: 0.60689
+[ Epoch 029/060 ]( 00:00:05 ) train loss: 1.10428 train acc: 0.81601 train f1: 0.81742 test loss: 1.37646 test acc: 0.61060 test f1: 0.60691
+[ Epoch 030/060 ]( 00:00:05 ) train loss: 1.10034 train acc: 0.81859 train f1: 0.82002 test loss: 1.37637 test acc: 0.61121 test f1: 0.60741
+[ Epoch 031/060 ]( 00:00:05 ) train loss: 1.10495 train acc: 0.81480 train f1: 0.81643 test loss: 1.37720 test acc: 0.61306 test f1: 0.60906
+[ Epoch 032/060 ]( 00:00:05 ) train loss: 1.09313 train acc: 0.82530 train f1: 0.82632 test loss: 1.37737 test acc: 0.61306 test f1: 0.60898
+[ Epoch 033/060 ]( 00:00:05 ) train loss: 1.09423 train acc: 0.81876 train f1: 0.82022 test loss: 1.37452 test acc: 0.61245 test f1: 0.60830
+[ Epoch 034/060 ]( 00:00:05 ) train loss: 1.09153 train acc: 0.82410 train f1: 0.82557 test loss: 1.37761 test acc: 0.61368 test f1: 0.60947
+[ Epoch 035/060 ]( 00:00:05 ) train loss: 1.08442 train acc: 0.82806 train f1: 0.82915 test loss: 1.38809 test acc: 0.60998 test f1: 0.60602
+[ Epoch 036/060 ]( 00:00:05 ) train loss: 1.09406 train acc: 0.82272 train f1: 0.82421 test loss: 1.39735 test acc: 0.60937 test f1: 0.60557
+[ Epoch 037/060 ]( 00:00:05 ) train loss: 1.07705 train acc: 0.83167 train f1: 0.83307 test loss: 1.39653 test acc: 0.61060 test f1: 0.60684
+[ Epoch 038/060 ]( 00:00:06 ) train loss: 1.07929 train acc: 0.82702 train f1: 0.82866 test loss: 1.39165 test acc: 0.61121 test f1: 0.60733
+[ Epoch 039/060 ]( 00:00:05 ) train loss: 1.07358 train acc: 0.82771 train f1: 0.82879 test loss: 1.39448 test acc: 0.60998 test f1: 0.60595
+[ Epoch 040/060 ]( 00:00:05 ) train loss: 1.06528 train acc: 0.83322 train f1: 0.83444 test loss: 1.41138 test acc: 0.61121 test f1: 0.60729
+[ Epoch 041/060 ]( 00:00:05 ) train loss: 1.06644 train acc: 0.83339 train f1: 0.83439 test loss: 1.43479 test acc: 0.60752 test f1: 0.60398
+[ Epoch 042/060 ]( 00:00:05 ) train loss: 1.04589 train acc: 0.84819 train f1: 0.84897 test loss: 1.43399 test acc: 0.60567 test f1: 0.60277
+[ Epoch 043/060 ]( 00:00:05 ) train loss: 1.05258 train acc: 0.84028 train f1: 0.84187 test loss: 1.41677 test acc: 0.60444 test f1: 0.60152
+[ Epoch 044/060 ]( 00:00:05 ) train loss: 1.04658 train acc: 0.83941 train f1: 0.84162 test loss: 1.42327 test acc: 0.60444 test f1: 0.60158
+[ Epoch 045/060 ]( 00:00:05 ) train loss: 1.04174 train acc: 0.84561 train f1: 0.84705 test loss: 1.45870 test acc: 0.60690 test f1: 0.60380
+[ Epoch 046/060 ]( 00:00:05 ) train loss: 1.03709 train acc: 0.84527 train f1: 0.84695 test loss: 1.47480 test acc: 0.60567 test f1: 0.60289
+[ Epoch 047/060 ]( 00:00:05 ) train loss: 1.03476 train acc: 0.84905 train f1: 0.85061 test loss: 1.46966 test acc: 0.60259 test f1: 0.60041
+[ Epoch 048/060 ]( 00:00:05 ) train loss: 1.02734 train acc: 0.85181 train f1: 0.85399 test loss: 1.46863 test acc: 0.59827 test f1: 0.59599
+[ Epoch 049/060 ]( 00:00:05 ) train loss: 1.02555 train acc: 0.85387 train f1: 0.85573 test loss: 1.47451 test acc: 0.60012 test f1: 0.59768
+[ Epoch 050/060 ]( 00:00:05 ) train loss: 1.02238 train acc: 0.85525 train f1: 0.85743 test loss: 1.48715 test acc: 0.59889 test f1: 0.59730
+[ Epoch 051/060 ]( 00:00:05 ) train loss: 1.02161 train acc: 0.85353 train f1: 0.85553 test loss: 1.49508 test acc: 0.59889 test f1: 0.59849
+[ Epoch 052/060 ]( 00:00:05 ) train loss: 1.01829 train acc: 0.85439 train f1: 0.85728 test loss: 1.50715 test acc: 0.60012 test f1: 0.60102
+[ Epoch 053/060 ]( 00:00:05 ) train loss: 1.01886 train acc: 0.85404 train f1: 0.85667 test loss: 1.51114 test acc: 0.60074 test f1: 0.60107
+[ Epoch 054/060 ]( 00:00:05 ) train loss: 1.00941 train acc: 0.85749 train f1: 0.85970 test loss: 1.51459 test acc: 0.59704 test f1: 0.59734
+[ Epoch 055/060 ]( 00:00:05 ) train loss: 0.99692 train acc: 0.86936 train f1: 0.87183 test loss: 1.51505 test acc: 0.59889 test f1: 0.59921
+[ Epoch 056/060 ]( 00:00:05 ) train loss: 0.99943 train acc: 0.86506 train f1: 0.86763 test loss: 1.52075 test acc: 0.59766 test f1: 0.59823
+[ Epoch 057/060 ]( 00:00:05 ) train loss: 0.99644 train acc: 0.86713 train f1: 0.87027 test loss: 1.53259 test acc: 0.59766 test f1: 0.59812
+[ Epoch 058/060 ]( 00:00:05 ) train loss: 1.00386 train acc: 0.85938 train f1: 0.86261 test loss: 1.53049 test acc: 0.59889 test f1: 0.59856
+[ Epoch 059/060 ]( 00:00:05 ) train loss: 1.00029 train acc: 0.86007 train f1: 0.86346 test loss: 1.53084 test acc: 0.60012 test f1: 0.59990
+[ Epoch 060/060 ]( 00:00:05 ) train loss: 0.99471 train acc: 0.86747 train f1: 0.87024 test loss: 1.52814 test acc: 0.59519 test f1: 0.59493
+Finish train. ( 00:05:30 )
+Best model metrics:
+accuracy: 0.63463
+confusion_matrix: 
+[[ 27.   9.  15.   0.  93.   0.]
+ [  1. 174.  17.   2.   1.  50.]
+ [  5.  18. 227.  16.  39.  79.]
+ [  0.   1.  11.  91.   0.  67.]
+ [  7.   6.  24.   0. 259.   3.]
+ [  0.   2. 102.  21.   4. 252.]]
+classification report: 
+              precision    recall  f1-score   support
+
+           0    0.67500   0.18750   0.29348     144.0
+           1    0.82857   0.71020   0.76484     245.0
+           2    0.57323   0.59115   0.58205     384.0
+           3    0.70000   0.53529   0.60667     170.0
+           4    0.65404   0.86622   0.74532     299.0
+           5    0.55876   0.66142   0.60577     381.0
+
+    accuracy                        0.63463    1623.0
+   macro avg    0.66493   0.59196   0.59969    1623.0
+weighted avg    0.64557   0.63463   0.62227    1623.0
+
